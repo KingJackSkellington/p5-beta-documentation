@@ -4,4 +4,4 @@ Documentation and translation efforts of the Persona 5 beta debug build dated 26
 Translation efforts are on-going.
 
 ## Currently done
-* [Right Click Context Menu](https://github.com/KingJackSkellington/p5-beta-documentation/blob/main/Patches/right-click-context-menu.txt)
+* [Right Click Context Menu](https://github.com/KingJackSkellington/p5-beta-documentation/blob/main/Patches/right-click-context-menu.yml)
