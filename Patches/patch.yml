@@ -1,0 +1,59 @@
+PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
+  Right Click Menu Translation:
+    Games:
+      "XRD664":
+        TEST00000: [ All ]
+    Author: Scarltz, Lyn, KingJackSkellington
+    Notes: Translation
+    Patch Version: 1.0
+    Patch:
+      - [ utf8, 0x0105E678, "Filer View   " ]
+      - [ utf8, 0x0105E688, "Debug Console                " ]
+      - [ utf8, 0x0105E810, "Model View            " ]
+      - [ utf8, 0x0105E828, "Texture View             " ]
+      - [ utf8, 0x0105E848, "Asset View           " ]
+      - [ utf8, 0x0105E870, "Performance Meter                " ]
+      - [ utf8, 0x0105E898, "Memory Info    " ]
+      - [ utf8, 0x0105E8A8, "Graphic Info" ]
+      - [ utf8, 0x0105E8B8, "Camera Info    " ]
+      - [ utf8, 0x0105E8C8, "Build Info     " ]
+      - [ utf8, 0x0105E8D8, "Anime Texture Editor                " ]
+      - [ utf8, 0x0105E900, "Scene/ENV Editor           " ]
+      - [ utf8, 0x0105E920, "Effect Editor              " ]
+      - [ utf8, 0x0105E940, "FPS Stabilizer " ]
+      - [ utf8, 0x0105E950, "Task Info Console Output           " ]
+      - [ utf8, 0x0105E978, "About GFD Engine     " ]
+      - [ utf8, 0x0105E990, "Serial Num. Capture Detail    " ]
+      - [ utf8, 0x0105E9B0, "Serial Num. Capture Start     " ]
+PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
+  Model View Translation WIP:
+    Games:
+      "XRD664":
+        TEST00000: [ All ]
+    Author: KingJackSkellington
+    Notes: Translation
+    Patch Version: 1.0
+    Patch:
+      - [ utf8, 0x01060F40, "Animation Blend           " ]
+      - [ utf8, 0x010611A8, "Move  " ]
+      - [ utf8, 0x010611B0, "Neck Bending View  " ]
+      - [ utf8, 0x010611C8, "Attachment       " ]
+      - [ utf8, 0x010611E0, "Node Hierarchy       " ]
+      - [ utf8, 0x01061200, "View Properties       " ]
+      - [ utf8, 0x01061220, "Bounding Box       " ]
+      - [ utf8, 0x01061248, "Node Position" ]
+      - [ utf8, 0x01061258, "Node Link   " ]
+      - [ utf8, 0x01061270, "Node Name " ]
+      - [ utf8, 0x01061280, "Node Helper ID    " ]
+      - [ utf8, 0x01061298, "Physical Object" ]
+      - [ utf8, 0x010612B8, "Disable Separate Key Composition" ]
+      - [ utf8, 0x010612D8, "Transluscent (25%)" ]
+      - [ utf8, 0x010612E8, "Physics Editing" ]
+      - [ utf8, 0x010612F8, "Create Navigation Mesh" ]
+      - [ utf8, 0x01061378, "Open " ]
+      - [ utf8, 0x01061458, "GFS Viewer       " ]
+      - [ utf8, 0x01061490, "File Name     " ]
+      - [ utf8, 0x010614A0, "Controller          " ]
+      - [ utf8, 0x01061528, "Polygon Floor" ]
+      - [ utf8, 0x01061538, "Wire Floor   " ]
+      - [ utf8, 0x01061548, "Floor Off " ]
