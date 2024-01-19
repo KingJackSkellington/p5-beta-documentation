@@ -1,0 +1,130 @@
+PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
+  Mod Cpk Support:
+    Games:
+      "XRD664":
+        TEST00000: [ All ]
+    Author: DeathChaos
+    Notes: File replacement through mod.cpk.
+    Patch Version: 1.0
+    Patch:
+      # redirect uses of exact copy of GetEquippedPersona to the first one to free some code space
+      - [ be32, 0x002523b8, 0x48074551 ] 
+      - [ be32, 0x0025251c, 0x480743ed ] 
+      # make CPK BIND ERROR -> %s%s/mod.cpk
+      - [ be32, 0x00f41e04, 0x25732573 ]
+      - [ be32, 0x00f41e08, 0x2F6D6F64 ]
+      - [ be32, 0x00f41e0C, 0x2E63706B ]
+      - [ be32, 0x00f41e10, 0x00000000 ]
+      # branch to now unused copy of GetEquippedPersona
+      - [ be32, 0x00160148, 0x48166818 ]
+      # make mod.cpk file path
+      - [ be32, 0x002c6960, 0x3C6000F4 ] # lis    r3, 0xf4
+      - [ be32, 0x002c6964, 0x33e10070 ] # addic  r31, r1, 0x70
+      - [ be32, 0x002c6968, 0x33c31e04 ] # addic  r30, r3, 0x1e04
+      - [ be32, 0x002c696c, 0x48850d2d ] # bl     00b17698
+      - [ be32, 0x002c6970, 0x60000000 ] # nop
+      - [ be32, 0x002c6974, 0x607d0000 ] # ori    r29, r3, 0x0
+      - [ be32, 0x002c6978, 0x48850d2d ] # bl     00b176a4
+      - [ be32, 0x002c697C, 0x60000000 ] # nop
+      - [ be32, 0x002c6980, 0x60660000 ] # ori    r6, r3, 0x0
+      - [ be32, 0x002c6984, 0x63E30000 ] # ori    r3, r31, 0x0
+      - [ be32, 0x002c6988, 0x63C40000 ] # ori    r4, r30, 0x0
+      - [ be32, 0x002c698C, 0x63A50000 ] # ori    r5, r29, 0x0
+      - [ be32, 0x002c6990, 0x48bc3345 ] # bl     sprintf
+      - [ be32, 0x002c6994, 0x60000000 ] # nop
+      - [ be32, 0x002c6998, 0x63e30000 ] # ori    r3, r31, 0x0
+      - [ be32, 0x002c699C, 0x4be99619 ] # bl     bind_cpk
+      - [ be32, 0x002c69a0, 0x60000000 ] # nop
+      # original instruction we replaced with trampoline
+      - [ be32, 0x002c69a4, 0x3c6000f4 ] # lis    r3, 0xF4
+      # go back to original function
+      - [ be32, 0x002c69a8, 0x4be997a4 ] # b      0x0016014c
+
+
+PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
+  Single Combat GAP:
+    Games:
+      "XRD664":
+        TEST00000: [ All ]
+    Author: DeathChaos
+    Notes: Makes characters load singular GAP file in combat
+    Patch Version: 1.0
+    Patch:
+      # Make Emergency Shift use Single GAP
+      - [ be32, 0x00781f68, 0x428000cc ] # b   LAB_006262fc
+      # isValidCombatModel
+      - [ be32, 0x008893bc, 0x38600000 ] # li  r3, 0x0
+      - [ be32, 0x008893c0, 0x4e800020 ] # blr
+      
+PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
+  Disable Asserts:
+    Games:
+      "XRD664":
+        TEST00000: [ All ]
+    Author: SecreC.
+    Notes: Stops Asserts from freezing the game
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0xa7aa08, 0x4e800020 ]
+
+
+PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
+  Right Click Menu Translation:
+    Games:
+      "XRD664":
+        TEST00000: [ All ]
+    Author: Scarltz, Lyn, KingJackSkellington
+    Notes: Translation
+    Patch Version: 1.0
+    Patch:
+      - [ utf8, 0x0105E678, "Filer View   " ]
+      - [ utf8, 0x0105E688, "Debug Console                " ]
+      - [ utf8, 0x0105E810, "Model View            " ]
+      - [ utf8, 0x0105E828, "Texture View             " ]
+      - [ utf8, 0x0105E848, "Asset View           " ]
+      - [ utf8, 0x0105E870, "Performance Meter                " ]
+      - [ utf8, 0x0105E898, "Memory Info    " ]
+      - [ utf8, 0x0105E8A8, "Graphic Info" ]
+      - [ utf8, 0x0105E8B8, "Camera Info    " ]
+      - [ utf8, 0x0105E8C8, "Build Info     " ]
+      - [ utf8, 0x0105E8D8, "Anime Texture Editor                " ]
+      - [ utf8, 0x0105E900, "Scene/ENV Editor           " ]
+      - [ utf8, 0x0105E920, "Effect Editor              " ]
+      - [ utf8, 0x0105E940, "FPS Stabilizer " ]
+      - [ utf8, 0x0105E950, "Task Info Console Output           " ]
+      - [ utf8, 0x0105E978, "About GFD Engine     " ]
+      - [ utf8, 0x0105E990, "Serial Num. Capture Detail    " ]
+      - [ utf8, 0x0105E9B0, "Serial Num. Capture Start     " ]
+
+PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
+  Model View Translation WIP:
+    Games:
+      "XRD664":
+        TEST00000: [ All ]
+    Author: KingJackSkellington
+    Notes: Translation
+    Patch Version: 1.0
+    Patch:
+      - [ utf8, 0x01060F40, "Animation Blend           " ]
+      - [ utf8, 0x010611A8, "Move  " ]
+      - [ utf8, 0x010611B0, "Neck Bending View  " ]
+      - [ utf8, 0x010611C8, "Attachment       " ]
+      - [ utf8, 0x010611E0, "Node Hierarchy       " ]
+      - [ utf8, 0x01061200, "View Properties       " ]
+      - [ utf8, 0x01061220, "Bounding Box       " ]
+      - [ utf8, 0x01061248, "Node Position" ]
+      - [ utf8, 0x01061258, "Node Link   " ]
+      - [ utf8, 0x01061270, "Node Name " ]
+      - [ utf8, 0x01061280, "Node Helper ID    " ]
+      - [ utf8, 0x01061298, "Physical Object" ]
+      - [ utf8, 0x010612B8, "Disable Separate Key Composition" ]
+      - [ utf8, 0x010612D8, "Transluscent (25%)" ]
+      - [ utf8, 0x010612E8, "Physics Editing" ]
+      - [ utf8, 0x010612F8, "Create Navigation Mesh" ]
+      - [ utf8, 0x01061378, "Open " ]
+      - [ utf8, 0x01061458, "GFS Viewer       " ]
+      - [ utf8, 0x01061490, "File Name     " ]
+      - [ utf8, 0x010614A0, "Controller          " ]
+      - [ utf8, 0x01061528, "Polygon Floor" ]
+      - [ utf8, 0x01061538, "Wire Floor   " ]
+      - [ utf8, 0x01061548, "Floor Off " ]
