@@ -104,36 +104,87 @@ PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
       "XRD664":
         TEST00000: [ All ]
     Author: Century
-    Notes: h1
+    Notes: Translation
     Patch Version: 1.0
     Patch:
-      - [ utf8, 0x0105f470, "EPT - Animated Texture Editor " ]
+      - [ utf8, 0x0105F470, "EPT - Animated Texture Editor " ]
       - [ be64, 0x0105f48e, 0x0000000000000000 ]
       - [ be64, 0x0105f496, 0x0000000000000000 ]
       - [ be64, 0x0105f49e, 0x0000000000000000 ]
-      - [ utf8, 0x0105f528, "New" ]
+      - [ utf8, 0x0105F528, "New" ]
       - [ be32, 0x0105f52b, 0x00000000 ]
-      - [ utf8, 0x0105f530, "Save" ]
+      - [ utf8, 0x0105F530, "Save" ]
       - [ be16, 0x0105f534, 0x0000 ]
-      - [ utf8, 0x0105f538, " Save As... " ]
-      - [ utf8, 0x0105f548, "Open" ]
+      - [ utf8, 0x0105F538, " Save As... " ]
+      - [ utf8, 0x0105F548, "Open" ]
       - [ be16, 0x0105f54c, 0x0000 ]
-      - [ utf8, 0x0105f7f8, "Confirm File Overwrite" ]
-      - [ utf8, 0x0105f648, "Confirm Clear" ]
-      - [ utf8, 0x0105f810, "This will overwrite and save %s. Is that okay?" ]
+      - [ utf8, 0x0105F7F8, "Confirm File Overwrite" ]
+      - [ utf8, 0x0105F648, "Confirm Clear" ]
+      - [ utf8, 0x0105F810, "This will overwrite and save %s. Is that okay?" ]
       - [ be64, 0x0105f83e, 0x0000000000000000 ]
-      - [ utf8, 0x0105f848, "The EPT file currently being edited will be deleted. Is that okay?" ]
+      - [ utf8, 0x0105F848, "The EPT file currently being edited will be deleted. Is that okay?" ]
       - [ be64, 0x0105f88a, 0x0000000000000000 ]
-      - [ utf8, 0x0105ee70, "[Frame Width]" ]
-      - [ utf8, 0x0105ee80, "[Frame Height]" ]
-      - [ utf8, 0x0105eea0, "Loop Playback  " ]
-      - [ utf8, 0x0105eeb0, "Intermittent Play" ]
-      - [ utf8, 0x0105eec8, "Load Texture Asset" ]
-      - [ utf8, 0x0105eee0, "Preview        " ]
-      - [ utf8, 0x0105eef0, "Actual Size" ]
-      - [ utf8, 0x0105fa48, "Cancel" ]
+      - [ utf8, 0x0105EE70, "[Frame Width]" ]
+      - [ utf8, 0x0105EE80, "[Frame Height]" ]
+      - [ utf8, 0x0105EEA0, "Loop Playback  " ]
+      - [ utf8, 0x0105EEB0, "Intermittent Play" ]
+      - [ utf8, 0x0105EEC8, "Load Texture Asset" ]
+      - [ utf8, 0x0105EEE0, "Preview        " ]
+      - [ utf8, 0x0105EEF0, "Actual Size" ]
+      - [ utf8, 0x0105FA48, "Cancel" ]
       - [ be64, 0x0105fa4e, 0x0000000000000000 ]
-      - [ be8, 0x0105fa56, 0x00 ]
+      - [ be16, 0x0105fa56, 0x0000 ]
+
+PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
+  EPD/EPL Editor Translation:
+    Games:
+      "XRD664":
+        TEST00000: [ All ]
+    Author: Century
+    Notes: Translation
+    Patch Version: 1.0
+    Patch:
+      - [ utf8, 0x0105F590, "Finish" ]
+      - [ utf8, 0x0105F5E0, "Animated Texture Editor" ]
+      - [ be64, 0x0105f5f7, 0x0000000000000000 ]
+      - [ be64, 0x0105f5ff, 0x0000000000000000 ]
+      - [ be32, 0x0105f607, 0x00000000 ]
+      - [ utf8, 0x0105F610, "Texture Displacement Editor" ]
+      - [ be64, 0x0105f62b, 0x0000000000000000 ]
+      - [ be64, 0x0105f633, 0x0000000000000000 ]
+      - [ be64, 0x0105f63b, 0x0000000000000000 ]
+      - [ utf8, 0x0105F658, "Will you delete %s?" ]
+      - [ be64, 0x0105f66b, 0x0000000000000000 ]
+      - [ utf8, 0x0105F678, "Will you delete it?" ]
+      - [ be16, 0x0105f68b, 0x0000 ]
+      - [ utf8, 0x0105F690, "The EPL file currently being edited will be deleted. Is that okay?" ]
+      - [ be64, 0x0105f6d2, 0x0000000000000000 ]
+      - [ utf8, 0x0105F6E0, "All hidden parts will be deleted. Is that okay?" ]
+      - [ be64, 0x0105f70f, 0x0000000000000000 ]
+      - [ be64, 0x0105f717, 0x0000000000000000 ]
+      - [ be64, 0x0105f71f, 0x0000000000000000 ]
+      - [ be32, 0x0105f727, 0x00000000 ]
+      - [ utf8, 0x0105F7D0, "%s file not found" ]
+      - [ be64, 0x0105f7e1, 0x0000000000000000 ]
+      - [ be64, 0x0105f7e9, 0x0000000000000000 ]
+      - [ be32, 0x0105f7f1, 0x00000000 ]
+      - [ be16, 0x0105f7f5, 0x0000 ]
+      - [ utf8, 0x0105F7F8, "Confirm File Overwrite" ]
+
+      #--------------EPD Editor Window--------------
+
+      - [ utf8, 0x01066810, "Preview" ]
+      - [ be64, 0x01066817, 0x0000000000000000 ]
+      - [ utf8, 0x01066820, "Load Color Map Texture" ]
+      - [ be64, 0x01066836, 0x0000000000000000 ]
+      - [ utf8, 0x01066840, "Load Displacement Map Texture" ]
+      - [ be64, 0x0106685d, 0x0000000000000000 ]
+      - [ be64, 0x01066865, 0x0000000000000000 ]
+      - [ be64, 0x0106686d, 0x0000000000000000 ]
+      - [ utf8, 0x01066878, "Loop Play" ]
+      - [ be32, 0x01066881, 0x00000000 ]
+      - [ be16, 0x01066885, 0x0000 ]
+      - [ utf8, 0x01066888, "Intermittent Play " ]
 
 PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
   Debug-System Window Translation:
