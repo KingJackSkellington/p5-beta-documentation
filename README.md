@@ -7,8 +7,14 @@ Translation efforts are on-going.
 
 [Click here](https://github.com/KingJackSkellington/p5-beta-documentation/blob/main/patch.yml) to download the patch.yml file.
 
-## Currently done
+## Translated and in-game
 * Right Click Context Menu
 
 ## WIP
 * Model Viewer
+
+## Translated, to be added to the game
+* ENV Editor
+* EPL Node
+* L2 + R2 Menu
+  * Courtesy of CherryCreamSoda
