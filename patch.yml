@@ -99,6 +99,28 @@ PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
       - [ utf8, 0x0105E9B0, "Serial Num. Capture Start     " ]
 
 PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
+  EPT Editor Translation:
+    Games:
+      "XRD664":
+        TEST00000: [ All ]
+    Author: Century
+    Notes: h1
+    Patch Version: 1.0
+    Patch:
+      - [ utf8, 0x0105f470, "              EPT - Animated Texture Editor           " ]
+      - [ utf8, 0x0105f528, " New  " ]
+      - [ utf8, 0x0105f530, " Save " ]
+      - [ utf8, 0x0105f538, " Save As... " ]
+      - [ utf8, 0x0105f548, " Open " ]
+      - [ utf8, 0x0105ee70, "[Frame Width]" ]
+      - [ utf8, 0x0105ee80, "[Frame Height]" ]
+      - [ utf8, 0x0105eea0, "Loop Playback  " ]
+      - [ utf8, 0x0105eeb0, "Intermittent Play" ]
+      - [ utf8, 0x0105eec8, "Load Texture Asset" ]
+      - [ utf8, 0x0105eee0, "Preview        " ]
+      - [ utf8, 0x0105eef0, "Actual Size" ]
+
+PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
   Model View Translation WIP:
     Games:
       "XRD664":
