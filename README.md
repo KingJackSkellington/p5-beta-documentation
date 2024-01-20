@@ -6,7 +6,7 @@ This patch.yml file includes various quality-of-life patches, such as mod.cpk su
 Translation efforts are on-going.
 
 [Click here](https://github.com/KingJackSkellington/p5-beta-documentation/blob/main/patch.yml) to download the patch.yml file.
-* If you don't want to fully replace your patch.yml file, copy everything except for the Version 1.2 line, and paste it at the bottom of your patch.yml file.
+* If you don't want to fully replace your patch.yml file, copy everything ***except*** the Version 1.2 line, and paste it at the bottom of your patch.yml file.
 
 ## Translated and in-game
 * Right Click Context Menu
