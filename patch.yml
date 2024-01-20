@@ -107,11 +107,23 @@ PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
     Notes: h1
     Patch Version: 1.0
     Patch:
-      - [ utf8, 0x0105f470, "              EPT - Animated Texture Editor           " ]
-      - [ utf8, 0x0105f528, " New  " ]
-      - [ utf8, 0x0105f530, " Save " ]
+      - [ utf8, 0x0105f470, "EPT - Animated Texture Editor " ]
+      - [ be64, 0x0105f48e, 0x0000000000000000 ]
+      - [ be64, 0x0105f496, 0x0000000000000000 ]
+      - [ be64, 0x0105f49e, 0x0000000000000000 ]
+      - [ utf8, 0x0105f528, "New" ]
+      - [ be32, 0x0105f52b, 0x00000000 ]
+      - [ utf8, 0x0105f530, "Save" ]
+      - [ be16, 0x0105f534, 0x0000 ]
       - [ utf8, 0x0105f538, " Save As... " ]
-      - [ utf8, 0x0105f548, " Open " ]
+      - [ utf8, 0x0105f548, "Open" ]
+      - [ be16, 0x0105f54c, 0x0000 ]
+      - [ utf8, 0x0105f7f8, "Confirm File Overwrite" ]
+      - [ utf8, 0x0105f648, "Confirm Clear" ]
+      - [ utf8, 0x0105f810, "This will overwrite and save %s. Is that okay?" ]
+      - [ be64, 0x0105f83e, 0x0000000000000000 ]
+      - [ utf8, 0x0105f848, "The EPT file currently being edited will be deleted. Is that okay?" ]
+      - [ be64, 0x0105f88a, 0x0000000000000000 ]
       - [ utf8, 0x0105ee70, "[Frame Width]" ]
       - [ utf8, 0x0105ee80, "[Frame Height]" ]
       - [ utf8, 0x0105eea0, "Loop Playback  " ]
@@ -119,6 +131,9 @@ PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
       - [ utf8, 0x0105eec8, "Load Texture Asset" ]
       - [ utf8, 0x0105eee0, "Preview        " ]
       - [ utf8, 0x0105eef0, "Actual Size" ]
+      - [ utf8, 0x0105fa48, "Cancel" ]
+      - [ be64, 0x0105fa4e, 0x0000000000000000 ]
+      - [ be8, 0x0105fa56, 0x00 ]
 
 PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
   Model View Translation WIP:
