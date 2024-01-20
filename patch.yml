@@ -136,6 +136,43 @@ PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
       - [ be8, 0x0105fa56, 0x00 ]
 
 PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
+  Debug-System Window Translation:
+    Games:
+      "XRD664":
+        TEST00000: [ All ]
+    Author: Scarltz
+    Notes: Translation
+    Patch Version: 1.0
+    Patch:
+      - [ utf8, 0x00FB7770, "System      " ]
+      - [ utf8, 0x00FB7780, "Damage      " ]
+      - [ utf8, 0x00FB7790, "Next turn   " ]
+      - [ utf8, 0x00FB77A0, "Cost consumption            " ]
+      - [ utf8, 0x00FB77C0, "Critical          " ]
+      - [ utf8, 0x00FB77D8, "Baste? Recovery" ]
+      - [ utf8, 0x00FB77E8, "Al. reflect " ]
+      - [ utf8, 0x00FB77F8, "Al. absorb  " ]
+      - [ utf8, 0x00FB7808, "Always hit  " ]
+      - [ utf8, 0x00FB7818, "Always miss" ]
+      - [ utf8, 0x00FB7828, "Al. disabled" ]
+      - [ utf8, 0x00FB7838, "Always weak/critical             " ]
+      - [ utf8, 0x00FB7860, "Always downed  " ]
+      - [ utf8, 0x00FB7870, "Always slip       " ]
+      - [ utf8, 0x00FB7888, "Always co-op skill (ally) " ]
+      - [ utf8, 0x00FB78A8, "Always co-op skill (navi)       " ]
+      - [ utf8, 0x00FB78D0, "Always cut in        " ]
+      - [ utf8, 0x00FB78E8, "Select everyone   " ]
+      - [ utf8, 0x00FB7900, "Use all skills    " ]
+      - [ utf8, 0x00FB7918, "Enemy skill select" ]
+      - [ utf8, 0x00FB7930, "Al. threaten en" ]
+      - [ utf8, 0x00FB7940, "Enemy al. surre" ]
+      - [ utf8, 0x00FB7950, "Network debugging             " ]
+      - [ utf8, 0x00FB7980, "Use all skills in order       " ]
+      - [ utf8, 0x00FB79A0, "Use all persona in order         " ]
+      - [ utf8, 0x00FB79C8, "BED shader collection         " ]
+      - [ utf8, 0x00FB79E8, "Aging          " ]
+
+PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
   Model View Translation WIP:
     Games:
       "XRD664":
