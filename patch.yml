@@ -173,6 +173,30 @@ PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
       - [ utf8, 0x00FB79E8, "Aging          " ]
 
 PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
+  BtlUnit-Status Window Translation:
+    Games:
+      "XRD664":
+        TEST00000: [ All ]
+    Author: Scarltz
+    Notes: Translation
+    Patch Version: 1.0
+    Patch:
+      - [ utf8, 0x00FB7CB8, "Status         " ]
+      - [ utf8, 0x00FB7CC8, "Level       " ]
+      - [ utf8, 0x00FB7CF8, "Ailment     " ]
+      - [ utf8, 0x00FB7D08, "Full Heal" ]
+      - [ utf8, 0x00FB7D18, "All 1    " ]
+      - [ utf8, 0x00FB7D28, "Downed   " ]
+      - [ utf8, 0x00FB7D38, "Kill  " ]
+      - [ utf8, 0x00FB7D40, "Fully open analyze            " ]
+      - [ utf8, 0x00FB7D60, "Fully close analyze           " ]
+      - [ utf8, 0x00FB7D80, "Darken ON      " ]
+      - [ utf8, 0x00FB7D90, "Darken OFF        " ]
+      - [ utf8, 0x00FB7DA8, "Lipsync ON     " ]
+      - [ utf8, 0x00FB7DB8, "Lipsync OFF       " ]
+      - [ utf8, 0x00FB7DD0, "Unit change       " ]
+
+PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
   Model View Translation WIP:
     Games:
       "XRD664":
