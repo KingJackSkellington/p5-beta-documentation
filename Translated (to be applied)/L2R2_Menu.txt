@@ -1,0 +1,34 @@
+TRANSLATION OF L2/R2 MENU
+------------------------------
+BULLET ( Collision )
+Player
+Enemies
+Door & TBox
+Camera
+Script
+Field Settings
+------------------------------
+Show Debug
+Show Model
+Show 2D
+Show Performance
+------------------------------
+Resource Viewer
+Wipe Viewer
+------------------------------
+EVA Editor
+EVA Player
+------------------------------
+Save
+Load
+Return to Calender
+------------------------------
+NPC Editor
+FPA Editor 
+FGF Editor
+CHD Editor
+Reload Constant Objects
+Reload Party Members
+Reload Background
+------------------------------
+Exit

@@ -1,0 +1,107 @@
+EPL NODE TRANSLATIONS
+===================================
+
+EPL "Parts Template"
+
+===================================
+Dummy
+	Point
+===================================
+Particle
+	Smoke
+	Explosion
+	Swirl
+	Sphere
+	Circle
+	Line
+===================================
+Flash Polygon
+	Flash Radiation
+	Explosion
+	Ring
+	Flash Scatter
+	Cylinder
+===================================
+Circle Polygon
+	Ring
+	Trajectory
+	Fill
+	Hoop
+===================================
+Thunder Polygon
+	Bar
+	Sphere
+===================================
+Trajectory Polygon
+	Smoke
+	Explosion
+	Spiral
+	Sphere
+	Circle
+	Line
+===================================
+Wind Polygon
+	Spiral
+	Explosion
+	Sphere
+===================================
+Model
+	3D
+	2D
+===================================
+Soul Polygon
+	Smoke
+	Explosion
+	Spiral
+	Sphere
+	Circle
+	Line
+===================================
+Flat Surface Polygon ( Billboard )
+	Square
+	Rectangle
+===================================
+Object Particle
+	Smoke
+	Explosion
+	Spiral
+	Sphere
+	Circle
+	Line
+===================================
+Spark Polygon
+	Explosion
+	Scatter
+	Cylinder
+	Wall
+===================================
+Directional Particle
+	Smoke
+	Explosion
+	Spiral
+	Sphere
+	Circle
+	Line
+===================================
+Camera
+	MESH
+	QUAKE
+===================================
+Light
+	MESH( PS3 ONLY )
+	SCENE
+===================================
+Post Effect
+	Radial Blur
+	Straight Blur
+	Noise Blur
+	Distortion Blur
+	Fill
+	Lens Flare
+	Color Correction
+	Monotone
+===================================
+Helper
+	Effect
+	Location of Model
+	

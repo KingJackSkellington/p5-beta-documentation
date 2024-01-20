@@ -1,0 +1,231 @@
+TRANSLATION OF ENV EDITOR MENU
+===============================
+------------------------------------------------------------
+LIGHT 0 
+
+Directional Light
+	Ambient 
+		Hue
+		Saturation 
+		Brightness
+	Diffuse
+		Hue
+		Saturation 
+		Brightness
+	Specular
+		Hue
+		Saturation 
+		Brightness
+	Direction
+------------------------------------------------------------
+
+------------------------------------------------------------
+LIGHT 1
+
+Seperate Light
+[ Light0 Value To Be Copied ]
+	Ambient 
+		Hue
+		Saturation 
+		Brightness
+	Diffuse
+		Hue
+		Saturation 
+		Brightness
+	Specular
+		Hue
+		Saturation 
+		Brightness
+	Direction
+------------------------------------------------------------
+
+------------------------------------------------------------
+LIGHT E
+
+"EPL" Light
+	Ambient 
+		Hue
+		Saturation 
+		Brightness
+	Diffuse
+		Hue
+		Saturation 
+		Brightness
+	Specular
+		Hue
+		Saturation 
+		Brightness
+	Direction
+------------------------------------------------------------
+
+------------------------------------------------------------
+CAMERA
+
+FOV
+Near Clip 
+Far Clip
+------------------------------------------------------------
+
+------------------------------------------------------------
+FOG
+
+Distance Fog
+	Mode - 
+	[ LINEAR ]
+	[ EXPONENTIAL ] 
+	[ EXPONENTIAL2 ]
+	[X] Set To Near Clip And Far Clip Of Camera
+	Near Clip
+	Far Clip
+	Color
+		Hue
+		Saturation
+		Brightness
+		Translucency
+		
+Height Fog
+	Near Clip 
+	Far Clip
+	Color 
+		Hue
+		Saturation
+		Brightness
+		Translucency
+------------------------------------------------------------
+
+------------------------------------------------------------
+HDR
+
+[X] Tone Map
+Brightness Midpoint
+Bloom Strength
+Adjust Illumination
+
+[X] Star Filter
+	Number Of Lines
+	Line Length
+	Boldness
+	Chromatic Abberation
+	Tilt
+
+Diffusion Filter
+	Brightness Midpoint
+	Bloom Strength
+	Adjust Illumination
+
+[X] Show HDR Buffer ( Debug )
+[X] Show Diffuseion Buffer ( Debug )
+------------------------------------------------------------
+
+------------------------------------------------------------
+DOF
+
+[X] Enable
+	Distance Of Focal Point
+	Near Distance Blur
+	Far Distance Blur
+	Limit Of Far Distance Blur
+
+	Type Of Blur -
+	[ 5x5 Gaussian Filter ]
+	[ Gaussian Iteration 2 ]
+	[ Gaussian Iteration 3 ]
+	[ Gaussian Iteration 5 ]
+	[ Gaussian Iteration 7 ]	
+
+	[X] Area Blur In Red ( Debug )
+	[X] Checkbox says Show Depth Buffer ( Debug )
+------------------------------------------------------------
+
+------------------------------------------------------------
+SHADOW
+
+[X] Backface Culling
+[X] Set Distance Of Shadow to Camera Far Clip 
+
+Distance of Shadow
+Bias
+Ambient
+Diffuse
+
+Cascade Shadow Map
+	Shadow Divide
+
+[X] Show Shadow Buffer ( Debug )
+[X] Show Shadow Geometry ( Debug )
+------------------------------------------------------------
+
+------------------------------------------------------------
+CORRECT 
+
+[X] Enable
+	Cyan
+	Magenta 
+	Yellow
+	Dodge
+	Burn
+------------------------------------------------------------
+
+------------------------------------------------------------
+WATER
+
+Height
+[X] Show Reflection Buffer
+------------------------------------------------------------
+
+------------------------------------------------------------
+OUTLINE 
+
+It will be deactivated by setting the value to 0
+	Area
+	Brightness
+
+[Geometry]
+	Start
+	End
+
+[X] Show Outline Buffer
+------------------------------------------------------------
+
+------------------------------------------------------------
+PHYSICS
+
+[X] Enable
+	Gravity
+
+Wind
+	[X] Enable
+	Wind Strength
+	Cycle Frequency
+	Direction
+
+[X] Show Physics Objects ( Debug )
+------------------------------------------------------------
+
+------------------------------------------------------------
+OTHERS
+
+Background Color
+	Hue
+	Saturation
+	Brightness
+------------------------------------------------------------
+
+------------------------------------------------------------
+DEBUG
+
+[X] Show Shadow Geometry
+[X] Show Collision Geometry
+
+[X] Show Shadow Buffer
+[X] Show HDR Buffer
+[X] Show Depth Buffer
+[X] Show Outline Buffer
+[X] Show Reflection Buffer
+
+[X] Show Physics Objects ( Debug )
+
+[X] Show Deferred Buffer ( Debug )
+
+[X] Checkbox Says Shader Monitor ( Debug )
+------------------------------------------------------------
