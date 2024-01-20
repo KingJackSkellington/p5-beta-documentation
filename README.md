@@ -10,6 +10,7 @@ Translation efforts are on-going.
 
 ## Translated and in-game
 * Right Click Context Menu
+* EPT Editor
 
 ## WIP
 * Model Viewer
