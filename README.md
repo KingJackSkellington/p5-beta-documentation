@@ -3,7 +3,10 @@ Documentation and translation efforts of the Persona 5 beta debug build dated 26
 
 This patch.yml file includes various quality-of-life patches, such as mod.cpk support and patching assertion failures from crashing the game (Thanks to DeathChaos and SecreC. respectively!)
 
-Translation efforts are on-going.
+Translation efforts are on-going; many thanks to:
+* Century_
+* Lyn/CherryCreamSoda
+* Scarltz
 
 [Click here](https://github.com/KingJackSkellington/p5-beta-documentation/blob/main/patch.yml) to download the patch.yml file.
 * NOTE: If you don't want to fully replace your patch.yml file, copy everything ***except*** the Version 1.2 line, and paste it at the bottom of your patch.yml file.
