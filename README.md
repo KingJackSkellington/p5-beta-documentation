@@ -14,12 +14,12 @@ Translation efforts are on-going.
 * EPD/EPL Editor Translation
 * Debug-System Window
 * BtlUnit-Status Window
+* Model Viewer
 
 ## WIP
-* Model Viewer
+* EPL Node
 
 ## Translated, to be added to the game
 * ENV Editor
-* EPL Node
 * L2 + R2 Menu
   * Courtesy of CherryCreamSoda
