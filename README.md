@@ -11,20 +11,39 @@ Translation efforts are on-going; many thanks to:
 * Scarltz
 
 [Click here](https://github.com/KingJackSkellington/p5-beta-documentation/blob/main/patch.yml) to download the patch.yml file.
-* NOTE: If you don't want to fully replace your patch.yml file, copy everything ***except*** the Version 1.2 line, and paste it at the bottom of your patch.yml file.
+* NOTE 1: If you don't want to fully replace your patch.yml file, copy everything ***except*** the `Version 1.2` line, and paste it at the bottom of your patch.yml file.
+* NOTE 2: If you ***don't*** have a mod.cpk file in the USRDIR directory, make sure to **disable** the `Mod Cpk Support` patch before booting the build; otherwise it _will_ crash.
 
 ## Translated and in-game
 * Right Click Context Menu
-* EPT Editor
-* EPD/EPL Editor Translation
-* Debug-System Window
-* BtlUnit-Status Window
+
+![Right Click Context Menu](https://github.com/KingJackSkellington/p5-beta-documentation/blob/main/pics/right-click.png?raw=true)
+
+* EPT - Animated Texture Editor
+
+![EPT Editor](https://github.com/KingJackSkellington/p5-beta-documentation/blob/main/pics/ept.gif?raw=true)
+
 * Model Viewer
 
+![Model Viewer](https://github.com/KingJackSkellington/p5-beta-documentation/blob/main/pics/model-viewer.png?raw=true)
+
 ## WIP
-* EPL Node
+* EPD/EPL Editor
+
+![EPD/EPL Editor](https://github.com/KingJackSkellington/p5-beta-documentation/blob/main/pics/epd-epl.png?raw=true)
+
+* L2 + R2 Menu
+
+![L2 + R2](https://github.com/KingJackSkellington/p5-beta-documentation/blob/main/pics/l2r2wip.png?raw=true)
+
+* Debug-System Window
+
+![Debug-System](https://github.com/KingJackSkellington/p5-beta-documentation/blob/main/pics/system.png?raw=true)
+
+* BtlUnit-Status Window
+
+![BtlUnit-Status](https://github.com/KingJackSkellington/p5-beta-documentation/blob/main/pics/btlunit.png?raw=true)
 
 ## Translated, to be added to the game
 * ENV Editor
-* L2 + R2 Menu
   * Courtesy of CherryCreamSoda
