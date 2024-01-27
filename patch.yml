@@ -6,7 +6,7 @@ PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
       "XRD664":
         TEST00000: [ All ]
     Author: Xan1242, KingJackSkellington
-    Notes: 60fps Patch
+    Notes: 60fps Patch. NOTE: Things might, can, and will break when playing at 60fps. PLayer discretion is advised.
     Patch Version: 1.0
     Patch:
       - [ be16, 0x00A86962, 0x3C ] # Forces the game to Base FPS 1: 60 FPS
@@ -739,6 +739,23 @@ PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
       - [ be32, 0x01066881, 0x00000000 ]
       - [ be16, 0x01066885, 0x0000 ]
       - [ utf8, 0x01066888, "Intermittent Play " ]
+      - [ utf8, 0x0105F4AE, "Displacement Editor" ]
+      - [ be16, 0x0105F4C1, 0x00 ]
+      - [ utf8, 0x010668A0, "Lifespn" ]
+      - [ utf8, 0x010668C1, "Threshold]" ]
+      - [ be16, 0x010668CB, 0x00 ]
+      - [ utf8, 0x010668D0, "Start" ]
+      - [ be16, 0x010668D5, 0x00 ]
+      - [ utf8, 0x010668D8, "End" ]
+      - [ be16, 0x010668DB, 0x00 ]
+      - [ utf8, 0x010668E1, "Amnt. Movemnt]" ]
+      - [ utf8, 0x010668F0, "U Direction" ]
+      - [ utf8, 0x01066900, "V Direction" ]
+      - [ utf8, 0x01066911, "Scale Amount]" ]
+      - [ be16, 0x0106691E, 0x00 ]
+      - [ utf8, 0x01066928, "V Direction" ]
+      - [ utf8, 0x0105F898, "The EPD currently being edited will be deleted. Is this OK?" ]
+      - [ be16, 0x0105F8D3, 0x00 ]
 
 PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
   Debug-System Window Translation:
