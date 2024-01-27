@@ -5,6 +5,8 @@ Documentation and translation efforts of the Persona 5 beta debug build dated **
 
 This patch.yml file includes various quality-of-life patches, such as mod.cpk support and patching assertion failures from crashing the game (Thanks to DeathChaos and SecreC. respectively!)
 
+Newly added to the patch.yml file is a 60 FPS patch that automatically sets the Base FPS option to 1, forcing the game to run at 60FPS! Additionally, the Base FPS options are limited to settings 1 (60FPS) and 2 (30FPS) (Many thanks to [Xan1242](https://github.com/xan1242)!)
+
 Translation efforts are on-going; many thanks to:
 * Century_
 * Lyn/CherryCreamSoda
