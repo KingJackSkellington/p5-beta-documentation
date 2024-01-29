@@ -6,7 +6,7 @@ PPU-800df00a7e7ac3ba08f8f0f40f9ec15433c7c6bb:
       "XRD664":
         TEST00000: [ All ]
     Author: Xan1242, KingJackSkellington
-    Notes: 60fps Patch. NOTE: Things might, can, and will break when playing at 60fps. PLayer discretion is advised.
+    Notes: 60fps Patch. NOTE - Things might, can, and will break when playing at 60fps. PLayer discretion is advised.
     Patch Version: 1.0
     Patch:
       - [ be16, 0x00A86962, 0x3C ] # Forces the game to Base FPS 1: 60 FPS
